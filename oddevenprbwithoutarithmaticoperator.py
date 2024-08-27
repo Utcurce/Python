@@ -1,0 +1,6 @@
+##a=int(input('Enter the number:'))
+##(a&1==0) and print(f'{a} is even number')
+##(a&1!=0) and print(f'{a} is odd number')
+a=int(input('Enter the number:'))
+(a&1) and print(f'{a} is odd')
+(a&1) or print(f'{a} is even')
